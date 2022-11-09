@@ -1,0 +1,24 @@
+1) #Faça função que calcule a área do trapézio.
+
+B = float(input('entre com o valor da base maior: '))
+b = float(input('entre com o valor da base menor: '))
+h = float(input('entre com o valor da altura: '))
+a = 2
+
+formula = ((B+ b) * h) / 2
+
+print(' a area do trapezio é: ', formula)
+
+
+2) #Faça um programa em Python com uma função chamada soma_imposto. 
+
+def somaImposto(taxaImposto, Custo):
+    return (1 + taxaImposto/100)*Custo
+taxa = float(input('Digite a taxa de imposto: '))
+custo = float(input('Digite o custo do item: '))
+print('Valor com imposto:', somaImposto(taxa,custo))
+
+3) #Faça um programa que converta da notação de 24 horas para a notação de 12 horas.
+
+
+
